@@ -1,0 +1,43 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect x="3" y="3" width="16" height="16" rx="4" fill="#101827"/>
+    </pattern>
+    <linearGradient id="trail" x1="0" x2="1">
+      <stop stop-color="#65F6FF" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#65F6FF"/>
+      <stop offset=".72" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#5CFFB0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="route" d="M70 66H1130V114H70V162H1130V210H70"/>
+  </defs>
+
+  <rect width="1200" height="250" rx="22" fill="#05070D"/>
+  <rect x="34" y="38" width="1132" height="188" rx="15" fill="url(#grid)"/>
+
+  <path d="M70 66H1130V114H70V162H1130V210H70"
+        fill="none" stroke="url(#trail)" stroke-width="8" stroke-linecap="round"
+        stroke-dasharray="110 430" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-1080" dur="7s" repeatCount="indefinite"/>
+  </path>
+
+  <g filter="url(#glow)">
+    <circle r="10" fill="#5CFFB0">
+      <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#route"/>
+      </animateMotion>
+    </circle>
+    <circle r="7" fill="#65F6FF" opacity=".85">
+      <animateMotion dur="7s" begin="-0.10s" repeatCount="indefinite"><mpath href="#route"/></animateMotion>
+    </circle>
+    <circle r="6" fill="#65F6FF" opacity=".65">
+      <animateMotion dur="7s" begin="-0.20s" repeatCount="indefinite"><mpath href="#route"/></animateMotion>
+    </circle>
+  </g>
+
+  <text x="600" y="29" text-anchor="middle" fill="#8FA6B8" font-family="monospace" font-size="12" letter-spacing="4">DEVIFY ACTIVITY // ALWAYS MOVING</text>
+</svg>
