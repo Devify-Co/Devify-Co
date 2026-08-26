@@ -1,0 +1,7 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="g"><stop stop-color="#65F6FF"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#5CFFB0"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="1200" height="150" rx="22" fill="#05070D"/>
+  <path d="M230 25H970" stroke="url(#g)" stroke-width="2" stroke-dasharray="10 12"><animate attributeName="stroke-dashoffset" values="0;-44" dur="2s" repeatCount="indefinite"/></path>
+  <text x="600" y="82" text-anchor="middle" fill="url(#g)" filter="url(#glow)" font-family="Arial" font-size="30" font-weight="800" letter-spacing="5">BUILD BOLD. SHIP SMART. DEVIFY.</text>
+  <text x="600" y="115" text-anchor="middle" fill="#8294A8" font-family="monospace" font-size="12" letter-spacing="3">© DIGITAL PRODUCT STUDIO</text>
+</svg>

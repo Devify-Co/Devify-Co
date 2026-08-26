@@ -1,0 +1,16 @@
+<svg width="1200" height="210" viewBox="0 0 1200 210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g"><stop stop-color="#65F6FF"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#5CFFB0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="210" rx="22" fill="#05070D"/>
+  <text x="600" y="42" text-anchor="middle" fill="#9FB5C9" font-family="monospace" font-size="14" letter-spacing="4">FROM SIGNAL TO LAUNCH</text>
+  <path d="M130 110H1070" stroke="#18253B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M130 110H1070" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-dasharray="940" stroke-dashoffset="940" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="940;0;0" dur="5s" repeatCount="indefinite"/></path>
+  <g font-family="monospace" text-anchor="middle">
+    <g transform="translate(150 110)"><circle r="27" fill="#0B1321" stroke="#65F6FF" stroke-width="2"/><text y="6" fill="#65F6FF" font-size="18">01</text><text y="58" fill="#EFFFFF" font-size="14">DISCOVER</text></g>
+    <g transform="translate(450 110)"><circle r="27" fill="#0B1321" stroke="#7BB7FF" stroke-width="2"/><text y="6" fill="#7BB7FF" font-size="18">02</text><text y="58" fill="#EFFFFF" font-size="14">DESIGN</text></g>
+    <g transform="translate(750 110)"><circle r="27" fill="#0B1321" stroke="#8B5CF6" stroke-width="2"/><text y="6" fill="#B69CFF" font-size="18">03</text><text y="58" fill="#EFFFFF" font-size="14">DEVELOP</text></g>
+    <g transform="translate(1050 110)"><circle r="27" fill="#0B1321" stroke="#5CFFB0" stroke-width="2" filter="url(#glow)"/><text y="6" fill="#5CFFB0" font-size="18">04</text><text y="58" fill="#EFFFFF" font-size="14">DEPLOY</text><animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="1.6s" repeatCount="indefinite" additive="sum"/></g>
+  </g>
+</svg>

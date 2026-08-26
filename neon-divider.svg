@@ -1,0 +1,16 @@
+<svg width="1200" height="34" viewBox="0 0 1200 34" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#65F6FF" stop-opacity="0"/>
+      <stop offset="0.28" stop-color="#65F6FF"/>
+      <stop offset="0.52" stop-color="#8B5CF6"/>
+      <stop offset="0.75" stop-color="#5CFFB0"/>
+      <stop offset="1" stop-color="#5CFFB0" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="34" fill="#05070D"/>
+  <path d="M30 17H1170" stroke="url(#line)" stroke-width="2" filter="url(#glow)"/>
+  <circle cx="600" cy="17" r="4" fill="#fff" filter="url(#glow)"><animate attributeName="r" values="3;6;3" dur="1.8s" repeatCount="indefinite"/></circle>
+</svg>

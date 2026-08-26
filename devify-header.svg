@@ -1,0 +1,35 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="70%"><stop stop-color="#14223D"/><stop offset="0.55" stop-color="#080B15"/><stop offset="1" stop-color="#03050A"/></radialGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#65F6FF"/><stop offset="0.5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#5CFFB0"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#65F6FF" stroke-opacity=".08"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <clipPath id="frame"><rect x="24" y="24" width="1152" height="372" rx="26"/></clipPath>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <rect x="24" y="24" width="1152" height="372" fill="url(#grid)" opacity=".9">
+      <animateTransform attributeName="transform" type="translate" values="0 0;40 40" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="110" cy="92" r="110" fill="#65F6FF" opacity=".11" filter="url(#soft)"><animate attributeName="cx" values="110;270;110" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="1090" cy="310" r="130" fill="#8B5CF6" opacity=".13" filter="url(#soft)"><animate attributeName="cy" values="310;140;310" dur="9s" repeatCount="indefinite"/></circle>
+
+    <g opacity=".7" font-family="monospace" font-size="13" fill="#9FB5C9">
+      <g><rect x="70" y="90" width="250" height="116" rx="12" fill="#090D17" stroke="#65F6FF" stroke-opacity=".45"/><circle cx="92" cy="112" r="4" fill="#FF5F57"/><circle cx="106" cy="112" r="4" fill="#FEBB2E"/><circle cx="120" cy="112" r="4" fill="#28C840"/><text x="92" y="145">&lt;idea /&gt;</text><text x="92" y="170" fill="#65F6FF">design → code → launch</text><animateTransform attributeName="transform" type="translate" values="0 2;0 -8;0 2" dur="4.5s" repeatCount="indefinite"/></g>
+      <g><rect x="880" y="210" width="250" height="116" rx="12" fill="#090D17" stroke="#8B5CF6" stroke-opacity=".5"/><text x="902" y="252">deploy.status</text><text x="902" y="280" fill="#5CFFB0">● LIVE</text><animateTransform attributeName="transform" type="translate" values="0 -3;0 8;0 -3" dur="5.2s" repeatCount="indefinite"/></g>
+    </g>
+
+    <text x="600" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="86" font-weight="800" letter-spacing="14" fill="url(#brand)" filter="url(#glow)">DEVIFY</text>
+    <text x="600" y="262" text-anchor="middle" font-family="monospace" font-size="17" letter-spacing="6" fill="#B8C9D9">DIGITAL PRODUCT STUDIO</text>
+    <text x="600" y="316" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="3" fill="#65F6FF">DESIGN  //  DEVELOPMENT  //  AUTOMATION</text>
+
+    <g fill="#65F6FF" filter="url(#glow)">
+      <circle cx="140" cy="330" r="2"><animate attributeName="opacity" values=".1;1;.1" dur="1.7s" repeatCount="indefinite"/></circle>
+      <circle cx="365" cy="70" r="2"><animate attributeName="opacity" values="1;.1;1" dur="2.3s" repeatCount="indefinite"/></circle>
+      <circle cx="810" cy="85" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="1050" cy="105" r="2"><animate attributeName="opacity" values="1;.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+  <rect x="24" y="24" width="1152" height="372" rx="26" fill="none" stroke="url(#brand)" stroke-opacity=".42"/>
+</svg>

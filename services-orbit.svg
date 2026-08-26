@@ -1,0 +1,28 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg"><stop stop-color="#111A2D"/><stop offset="1" stop-color="#05070D"/></radialGradient>
+    <linearGradient id="g"><stop stop-color="#65F6FF"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#5CFFB0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="430" rx="24" fill="url(#bg)"/>
+  <text x="600" y="42" text-anchor="middle" fill="#9FB5C9" font-family="monospace" font-size="15" letter-spacing="4">WHAT WE CREATE</text>
+  <g transform="translate(600 230)">
+    <ellipse rx="390" ry="145" fill="none" stroke="#65F6FF" stroke-opacity=".2" stroke-dasharray="8 12"/>
+    <ellipse rx="270" ry="100" fill="none" stroke="#8B5CF6" stroke-opacity=".2" stroke-dasharray="5 10"/>
+    <circle r="72" fill="#090D17" stroke="url(#g)" stroke-width="3" filter="url(#glow)"/>
+    <text y="-4" text-anchor="middle" fill="#F3FFFF" font-family="Arial" font-size="24" font-weight="800">DEVIFY</text>
+    <text y="24" text-anchor="middle" fill="#65F6FF" font-family="monospace" font-size="11">BUILD • SHIP</text>
+
+    <g>
+      <g transform="translate(-390 0)"><rect x="-92" y="-34" width="184" height="68" rx="14" fill="#090D17" stroke="#65F6FF"/><text text-anchor="middle" y="6" fill="#EFFFFF" font-family="monospace" font-size="16">WEB DESIGN</text></g>
+      <g transform="translate(390 0)"><rect x="-92" y="-34" width="184" height="68" rx="14" fill="#090D17" stroke="#8B5CF6"/><text text-anchor="middle" y="6" fill="#EFFFFF" font-family="monospace" font-size="16">DEVELOPMENT</text></g>
+      <g transform="translate(-220 -125)"><rect x="-86" y="-32" width="172" height="64" rx="14" fill="#090D17" stroke="#5CFFB0"/><text text-anchor="middle" y="6" fill="#EFFFFF" font-family="monospace" font-size="15">UI / UX</text></g>
+      <g transform="translate(220 125)"><rect x="-86" y="-32" width="172" height="64" rx="14" fill="#090D17" stroke="#65F6FF"/><text text-anchor="middle" y="6" fill="#EFFFFF" font-family="monospace" font-size="15">AUTOMATION</text></g>
+      <g transform="translate(220 -125)"><rect x="-86" y="-32" width="172" height="64" rx="14" fill="#090D17" stroke="#8B5CF6"/><text text-anchor="middle" y="6" fill="#EFFFFF" font-family="monospace" font-size="15">SOFTWARE</text></g>
+      <g transform="translate(-220 125)"><rect x="-86" y="-32" width="172" height="64" rx="14" fill="#090D17" stroke="#5CFFB0"/><text text-anchor="middle" y="6" fill="#EFFFFF" font-family="monospace" font-size="15">DEPLOYMENT</text></g>
+      <animateTransform attributeName="transform" type="rotate" values="0;1.6;0;-1.6;0" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <circle r="9" fill="#65F6FF" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite" path="M-390 0 A390 145 0 1 1 390 0 A390 145 0 1 1 -390 0"/></circle>
+    <circle r="6" fill="#8B5CF6" filter="url(#glow)"><animateMotion dur="5s" repeatCount="indefinite" path="M270 0 A270 100 0 1 1 -270 0 A270 100 0 1 1 270 0"/></circle>
+  </g>
+</svg>
