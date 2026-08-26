@@ -33,11 +33,7 @@
 <br />
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Devify-Co/Devify-Co/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Devify-Co/Devify-Co/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/Devify-Co/Devify-Co/output/github-contribution-grid-snake-dark.svg" width="98%" alt="Animated Devify contribution snake" />
-  </picture>
+  <img src="./assets/contribution-snake.svg" width="98%" alt="Animated Devify contribution snake" />
 </div>
 
 <div align="center">
