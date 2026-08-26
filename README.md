@@ -2,15 +2,13 @@
   <img src="./assets/devify-header.svg" width="100%" alt="Devify — Digital experiences engineered to move" />
 </div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=20&duration=2200&pause=550&color=65F6FF&center=true&vCenter=true&repeat=true&width=920&lines=WE+DESIGN.+WE+BUILD.+WE+SHIP.;WEB+%E2%80%A2+SOFTWARE+%E2%80%A2+AUTOMATION;FROM+IDEA+TO+PRODUCTION.;YOUR+VISION%2C+DEVIFIED." alt="Animated Devify introduction" />
-</p>
+## `> capabilities --verbose`
 
-<p align="center">
-  <a href="https://devify.memauron.workers.dev/"><img src="https://img.shields.io/badge/ENTER_DEVIFY-65F6FF?style=for-the-badge&logo=googlechrome&logoColor=05070D&labelColor=05070D" alt="Devify website" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Devify-Co&label=VISITORS&color=8B5CF6&style=for-the-badge&labelColor=05070D" alt="Profile views" />
-  <img src="https://img.shields.io/badge/STATUS-AVAILABLE-5CFFB0?style=for-the-badge&labelColor=05070D" alt="Available for projects" />
-</p>
+| Web Systems | Data & Databases |
+|:--|:--|
+| Full-stack applications, dashboards, commerce experiences, responsive UI, API integration | PostgreSQL, MySQL, SQL Server, data modeling, migrations, reporting, operational support |
+| **Automation & Bots** | **Infrastructure & Support** |
+| Telegram bots, Discord bots, scraping pipelines, scheduled jobs, notifications | Linux, Docker, Nginx, Cloudflare, production deployment, monitoring, maintenance |
 
 <img src="./assets/neon-divider.svg" width="100%" alt="" />
 
