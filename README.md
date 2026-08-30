@@ -34,9 +34,6 @@
   <img src="./assets/contribution-snake.svg" width="98%" alt="Animated Devify contribution snake" />
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Devify-Co&bg_color=05070d&color=9fb5c9&line=65f6ff&point=8b5cf6&area=true&area_color=162b46&hide_border=true&radius=14" width="98%" alt="Devify GitHub activity" />
-</div>
 
 <img src="./assets/neon-divider.svg" width="100%" alt="" />
 
