@@ -2,7 +2,7 @@
   <img src="./assets/devify-header.svg" width="100%" alt="Devify — Digital experiences engineered to move" />
 </div>
 
-## `> capabilities --verbose`
+## `> capabilities--verbose`
 
 | Web Systems | Data & Databases |
 |:--|:--|
