@@ -45,3 +45,19 @@
 <div align="center">
   <img src="./assets/footer.svg" width="100%" alt="Build bold. Ship smart. Devify." />
 </div>
+
+<!-- DEVIFY TEAM -->
+<br />
+
+<div align="center">
+  <img src="./assets/team/heading.svg" width="100%" alt="The Devify Team" />
+</div>
+
+<p align="center">
+  <img src="./assets/team/mahdi-shahvaladi.svg" width="260" alt="Mahdi Shahvaladi — OWNER — Full-Stack Developer &amp; Project Manager" />
+  <img src="./assets/team/mohammad-amini.svg" width="260" alt="Mohammad Amini — Co-OWNER — Frontend Developer &amp; Content Creator" />
+  <img src="./assets/team/yasin-jafari.svg" width="260" alt="Yasin_Jafari — Developer — Backend &amp; SQL Developer" />
+  <img src="./assets/team/yasin-haririan.svg" width="260" alt="Yasin Haririan — broadcasting — Devify Advertising Operator" />
+  <img src="./assets/team/pouya-rahmani.svg" width="260" alt="Pouya_Rahmani — Graphic Designer — Devify Graphic Designer &amp; Content Creator" />
+  <img src="./assets/team/amir-alipour.svg" width="260" alt="Amir Alipour — Security Engineer — Network+ &amp; Security Engineer" />
+</p>

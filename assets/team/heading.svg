@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="96" viewBox="0 0 840 96" role="img" aria-labelledby="title">
+  <title id="title">The Devify Team</title>
+  <defs>
+    <linearGradient id="brand"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+    <linearGradient id="surface"><stop stop-color="#0d0a14"/><stop offset=".5" stop-color="#09090c"/><stop offset="1" stop-color="#100a10"/></linearGradient>
+  </defs>
+  <rect width="840" height="96" rx="20" fill="url(#surface)"/>
+  <g stroke="#9b6eea" stroke-width=".8" stroke-opacity=".22" fill="none"><path d="M0 68L57 30L124 64L181 16M57 30L110 11L124 64L193 77M646 23L710 64L779 26L840 55M710 64L790 87L779 26"/></g>
+  <g fill="#b68ae7" opacity=".65"><circle cx="57" cy="30" r="1.6"/><circle cx="124" cy="64" r="1.5"/><circle cx="710" cy="64" r="1.5"/><circle cx="779" cy="26" r="1.6"/></g>
+  <text x="420" y="51" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="5" fill="#bc90f5">THE DEVIFY TEAM</text>
+  <rect x="398" y="68" width="44" height="2" rx="1" fill="url(#brand)"/>
+</svg>
